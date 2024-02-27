@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the equation for Ohm's Law?",
+        "options": [
+            "V = I/R",
+            "V = IR",
+            "V = I - R",
+            "V = I^2"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of these mistakes will NOT generate a near infinite current?",
+        "options": [
+            "Supplying 1 V to a circuit with near 0 resistance",
+            "Suppling a near infinite voltage to a circuit with a 100 Ohm resistor",
+            "Installing an ideal voltmeter in series",
+            "Installing an ideal ammeter in parallel"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following branches has the LEAST amount of effective resistance?",
+        "options": [
+            "A single 100 Ohm resistor",
+            "Two 50 Ohm resistors in series",
+            "Two 50 Ohm resistors in parallel",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the effective resistance of an open switch in series?",
+        "options": [
+            "infinite",
+            "0",
+            "Depends on the voltage supplied",
+            "Wrong answer"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "If two resistors are in parallel and the potential difference across the first is 10 V, what is the potential difference across the second?",
+        "options": [
+            "Unknown",
+            "0 V",
+            "5 V",
+            "10 V"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How do you determine power dissipated by a resistor given its resistance and the current across it?",
+        "options": [
+            "P=IR",
+            "P=(I^2)R",
+            "P=I/R",
+            "P=(I^2)/R"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If two 10 V batteries facing the SAME direction are placed end-to-end in series, what is the effective voltage they can supply to a circuit?",
+        "options": [
+            "0 V",
+            "10 V",
+            "20 V",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If two 10 V batteries facing DIFFERENT directions are placed end-to-end in series, what is the effective voltage they can supply to a circuit?",
+        "options": [
+            "0 V",
+            "10 V",
+            "20 V",
+            "None of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "If a circuit consists of a 1 W lightbulb powered by a 10 V battery, what would happen if a second 1 W lightbulb is added in parallel?",
+        "options": [
+            "The first lightbulb gets brighter.",
+            "The first lightbulb's brightness is unaffected.",
+            "The first lighbulb gets dimmer.",
+            "The first lightbulb turns off entirely."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is 1+1?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": 2
+    }
+]

@@ -1,0 +1,216 @@
+.desktop {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    align-self: center;
+    background: linear-gradient(180deg, rgb(206, 184, 136) 0%, rgb(179, 180, 178) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .desktop .text-wrapper {
+    -webkit-text-stroke: 9px #154734;
+    color: #bfd73091;
+    font-family: "Inter", Helvetica;
+    font-size: 96px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    margin-top: 50px;
+  }
+  
+  .desktop .line {
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #007a33;
+    font-family: "Inter", Helvetica;
+    font-size: 96px; 
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .PRIMARY-NO-BANNER {
+    height: calc(100vw * 0.176);
+    left: 14px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 20%;
+  }
+
+  .desktop .input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+    align-items: center;
+  }
+
+  .desktop .gamePin {
+    align-self: center;
+    all: unset;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 50px;
+    width: 40vw;
+  }
+
+  .desktop .username {
+    all: unset;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 50px;
+    width: 40vw;
+  }
+  
+  .desktop .join-button {
+    all: unset;
+    box-sizing: border-box;
+    background-color: #154734;
+    height: 105px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .desktop .text-wrapper-3 {
+    color: #d9ab28;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    height: 57px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .desktop .text-wrapper-4 {
+    color: #007a33;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    height: 57px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .desktop .join-game {
+    margin-top: 25px;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .desktop .users-list {
+    font-size: 18px;
+  }
+
+  .desktop .users-list .list-element {
+    font-weight: 500;
+    color: white;
+    padding: 4.5px;
+  }
+
+  .desktop .start-game {
+    margin-top: 15px;
+    all: unset;
+    box-sizing: border-box;
+    background-color: #154734;
+    height: 105px;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d9ab28;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    height: 57px;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .host-btn {
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #154734;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+.host-btn:hover {
+    opacity: 0.9;
+}
+
+h2 {
+  margin-top: 0px;
+  color: #154734;
+}
+
+/* Stuff for hosted game screen */
+
+.game-info-panel {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.game-info-content {
+  display: inline-block;
+}
+
+.game-instructions {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.game-pin {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 27.5px;
+}
+
+.pin-number {
+  font-size: 36px;
+}
+
+.qr-code {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 25px;
+}
+  

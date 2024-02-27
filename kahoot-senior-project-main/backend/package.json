@@ -1,0 +1,10 @@
+{
+    "name": "capstone1",
+    "version": "0.0.1",
+    "description": "backend server for Kahoot 2.0 application",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.7.2"
+    }
+}
